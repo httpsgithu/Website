@@ -1,5 +1,38 @@
 # 更新日志
 ## V11
+### V11.5(2022.05.30)
+1. 【新增】在 Android 12 及以上部分设备中，默认界面风格情况下，部分内容以 Material 3 呈现；
+2. 【优化】Shizuku 相关模式的部分处理；
+3. 【合并】合入一些翻译（感谢 [@tommynok](https://github.com/tommynok) ）；
+4. 【更多】一些细节调整与优化。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.5(151)/)
+
+### V11.4(2022.05.16)
+1. 【新增】更多设置 - 冻结与解冻 - 播放冻结与解冻动画 （感谢 **@下 1.站、幸福** ）；
+2. 【新增】更多设置 - 常规 - 在最近任务中包括冻结与解冻活动（感谢 **@下 1.站、幸福** ）；
+3. 【调整】为避免在部分定制系统中，关闭所有三个图标后，通过拨号盘无法正常唤起软件，同时也无法于系统设置中找到“应用设定”以重新进入设置，导致无法正常使用软件，重新上线替换 `清除数据` 按钮的 `管理空间`。
+4. 【合并】合入一些翻译（感谢 [@tommynok](https://github.com/tommynok) ）。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.4(150)/)
+
+### V11.3(2022.05.14)
+1. 【新增】Shizuku （DISABLE_USER）等模式（感谢 [@Droidphilev](https://github.com/Droidphilev) 的 [Issue #206](https://github.com/FreezeYou/FreezeYou/issues/206) ）；
+2. 【新增】桌面快捷方式冻结解冻等部分情况下展示动画；
+3. 【新增】长按浮动按钮时的透明度变化（感谢 [@littlepony0](https://github.com/littlepony0) 的 [Issue #185](https://github.com/FreezeYou/FreezeYou/issues/185) ）；
+4. 【修复】部分设备部分情况下桌面快捷冻结解冻无法在首次解冻时自行启动应用；
+5. 【合并】合入一些翻译（感谢 [@tommynok](https://github.com/tommynok) ）；
+6. 【更多】一些细节调整与优化。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.3(149)/)
+
+### V11.2(2022.04.09)
+1. 【变更】移除 Google Play Core。(感谢 [IzzySoft](https://github.com/IzzySoft) 的 [Issue #216](https://github.com/FreezeYou/FreezeYou/issues/216))
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.2(148)/)
+
+### V11.1(2022.04.08)
+1. 【新增】支持 配置文件所有者（Profile Owner） 模式；
+2. 【优化】备份与恢复支持更多配置项的导入导出；
+3. 【更多】细节优化与性能增强。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.1(147)/)
+
 ### V11.0(2022.02.06)
 1. 【新增】创建冻结解冻桌面快捷方式 - 目标 中，选择目标时会显示相应的标题；
 2. 【新增】更多设置 - 外观 - 界面风格 - 黑色（与已存在的暗色相比更黑）；
@@ -52,7 +85,7 @@ __测试版，很可能存在各种不稳定情况__
 11. 【新增】自检诊断 - 刷新、帮助按钮；
 12. 【调整】自检诊断 - 未忽略电池优化 中，点击后直接唤起系统弹窗选择是否忽略而非跳转至系统设置手动找寻 `FreezeYou` 后再点击忽略；
 13. 【调整】不再显示列表的分割线，且不设开关；
-14. 【修复】一键冻结、一键解冻对全部冻结解冻模式的支持；
+14. 【修复】一键冻结、一键解���对全部冻结解冻模式的支持；
 15. 【调整】移除 更多设置 - 外观 - 单击功能选择操作风格；
 16. 【新增】支持以包名搜索应用；
 17. 【更多】大量细节与稳定性等优化。

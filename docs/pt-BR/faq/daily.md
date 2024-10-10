@@ -26,7 +26,7 @@
 - 自 FreezeYou 7.2 版本开始，可以通过添加桌面小部件（微件），找到 FreezeYou 分组，选择 冻结解冻启动 小部件，这个是没有右下角角标的，创建完成后使用时与创建桌面快捷方式等效。
 
 ## 应用列表里右侧的点是什么
-- 浅灰色是指该应用未冻结，如果是主题色（比如蓝色），是指对应的应用已经被冻结了。
+- 浅灰色或无色是指该应用未冻结，如果是主题色（比如蓝色），是指对应的应用已经被冻结了。
 
 ## 锁屏后一键冻结似乎没有生效
 - 是否在`更多设置`中开启了`锁屏后一键冻结`的功能呢？
@@ -74,6 +74,7 @@
 
 ## 我（不）想让自冻FreezeYou出现在最近应用列表里
 - 前往 `更多设置` - `常规`，调整 `显示在最近任务列表` 的启用与否即可。
+- 一般情况下，使用返回键离开 `自冻` 时，`显示在最近任务列表`的未启用状态能够得到体现。
 
 ## 能不能避免冻结尚有通知存在于通知栏的应用程序
 - 至 `更多设置` - `冻结与解冻`，勾选 `避免冻结有通知的应用程序` 即可。
@@ -84,12 +85,14 @@
 ## 如何管理我的自选
 - 前往 `更多设置` - `管理空间` - `管理我的自选`，点击需要管理的自选即可管理。
 
-## 如何卸载？
-- `更多设置` - `危险区` - `卸载` 即可卸载。如果启用了 免ROOT 的话，可能需要点击 `解除免ROOT` 解除权限后，方能卸载。
+## How to uninstall
+- If device owner is set to `FreezeYou`, click `Release device-owner permission` first.
+- If profile owner is set to `FreezeYou`, click `Release profile-owner permission` first.
+- Then, go to `FreezeYou` `Settings` - `Danger Zone`, and click `Uninstall`.
 
 ## More Faq
 * [FAQ](../faq/)
 
 ## Need More Help
-- [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [Contact Us](../about/contactUs.md)
 

@@ -16,22 +16,41 @@ Algumas funções precisam que essa permissão especial seja concedida antes que
 * Ferramenta ADB e pacote de código (formato .zip): [Link de transferência 1 (estação de origem)](https://freezeyou.playhi.net/attachment/urt.zip) | [Link de transferência 2 (Baidu Net Disk)](https://pan.baidu.com/s/1RlHg4w0z5O2aNc_ejkeUvA)
 
 ## Operation Method
-* 找到设备系统设置中的`开发者选项`（没有的可以试试多点几下`关于手机`，或搜索`"您的设备型号" + 开发者选项`）
-* 开启`开发者选项`中的`Android 调试`或`USB 调试`并将设备与具备 ADB 工具的计算机连接
-* 完整解压缩先前下载的压缩包（.zip 格式）
-* Linux用户执行解压后的`apply.sh`，Windows 用户执行解压后的`apply.cmd`或`apply`
-* 如果`正在尝试启用免ROOT模式......`下方的提示包含`Success:`，应该就成功了。如果没有成功，可以前往[免ROOT疑难解答](../faq/mroot.md)寻找相应的类似情况的解决方案尝试解决。
+* Go to the `Developer options` (if not seen, we can try to click the `About phone` several times, or search for `"your device model" + Developer options`).
+* Enable `USB debugging` and connect the device with a computer with ADB tools.
+* Fully unzip the previously downloaded archive (.zip format). 
+* If wants to use `profile-owner` instead of `device-owner`, edit the `apply.xx` file, and replace the line `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver` with `adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver`.
+* Linux users run `apply.sh`, and Windows users run `apply.cmd` or `apply`.
+* If the output below `正在尝试启用免ROOT模式......` contains `Success:`, then most likely we succeeded. If not, we can go to [NoRoot Faq](../faq/mroot.md) and various search engines to find solutions.
 * Always fail? → [NoRoot Faq](../faq/mroot.md)
 * Too complex? → [Use AutumnBox to enable FreezeYou NoRoot Mode](https://www.atmb.top/?from=freezeyou)
+
+## Core Code
+<CodeGroup>
+  <CodeGroupItem title="set-device-owner" active>
+
+```shell bash:no-line-numbers
+adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="set-profile-owner">
+
+```shell bash:no-line-numbers
+adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+```
+
+  </CodeGroupItem>
+</CodeGroup>
 
 ## Captura de tela da operação
 ![Captura de tela da operação](/assets/img/20180207104242.png)
 
 ## Mais informações
-* Código principal: `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver`
 * [AutumnBox](https://www.atmb.top/?from=freezeyou) agora tem suporte para habilitação rápida do modo FreezeYou NoRoot
 
 ## Preciso de ajuda
-* [Join QQ Group](https://jq.qq.com/?_wv=1027&k=l356Aq75)
+- [Contact Us](../about/contactUs.md)
 
 

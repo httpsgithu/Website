@@ -4,8 +4,10 @@
 ## {{@grantPermissions}}
 {{@grantPermissions_introductionText}}
 * {{@devicePolicyManager_commonlyCalledNoRoot_arrowMark}}{{@howTo}}[{{@grantPermission}}](./enable-mroot.html)
+* {{@profileOwner_commonlyCalledNoRoot_arrowMark}}{{@howTo}}[{{@grantPermission}}](./enable-mroot.html)
 * {{@root}}
 * {{@systemApp}}
+* [{{@shizuku}}](https://shizuku.rikka.app/guide/setup/)
 
 ## {{@freezeAndUnfreeze}} <Badge text="{{@beExtraCautious}}" type="warning"/>
 {{@freezeAndUnfreeze_guide_text}}
@@ -18,7 +20,7 @@
 {{@quickSearch_guide_text_2}}
 
 ## {{@scheduledTask}} <Badge text="6.0+" type="tip"/>
-{{@scheduledTask_guide_text}}[{{@introduction}}](./schedules.html)。
+{{@scheduledTask_guide_text}}
 
 ## {{@changeInterfaceStyle}} <Badge text="4.0+" type="tip"/>
 {{@changeInterfaceStyle_guide_text_1}}
@@ -57,5 +59,5 @@ _{{@itIsRecommendedToUseTheScheduledTaskInstead}}_
 
 ## {{@needHelp}}
 * [{{@faq}}](../faq/)
-* [{{@joinQQGroup}}(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [{{@contactUs}}](../about/contactUs.md)
 

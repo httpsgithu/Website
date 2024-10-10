@@ -1,4 +1,5 @@
 # {{@scheduledTask_-_faq}}
+[[toc]]
 
 ## {{@seemsScheduledTaskIsNotWorking}}
 * {{@seemsScheduledTaskIsNotWorking_text1}}
@@ -18,6 +19,7 @@
 
 ## {{@WiFiIsNotTurnedOnAsPlanned}}
 * {{@WiFiIsNotTurnedOnAsPlanned_text1}}
+* {{@WiFiIsNotTurnedOnAsPlanned_text2}}
 
 ## {{@cellularMobileDataNetworkIsNotTurnedOnAsPlanned}}
 * {{@cellularMobileDataNetworkIsNotTurnedOnAsPlanned_text1}}
@@ -30,5 +32,5 @@
 * [{{@faq}}](../faq/)
 
 ## {{@needMoreHelp}}
-- [{{@joinQQGroup}}(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [{{@contactUs}}](../about/contactUs.md)
 
